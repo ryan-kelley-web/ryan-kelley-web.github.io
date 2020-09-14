@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: white;
+}
+
+header {
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    top: 33px;
+    font-size: 20pt;
+
+}
+
+.img-text {
+    position: absolute;
+    top: 45%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 75vw;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px; 
+    font-family: 'Gayathri', sans-serif;
+    font-size: 75pt;
+    font-weight: bold;
+    width: 75vw;
+}
+
+h2 {
+   margin: 32px;
+   font-family: 'Righteous', cursive;
+   font-size: 20pt;
+   font-weight: 300;
+   letter-spacing: 3px;
+   width: 80vw;
+}
+
+h3 {
+    margin: 32px;
+    font-family: 'Molle', cursive;
+    font-size: 24pt;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+img {
+    width: 100vw;
+    height: 700px;
+}
+
+
+
+div.flex-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20pt;
+}
+
+.item1 {
+    position: relative;
+    margin: 0px 30px 6px 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.item2 {
+    position: relative;
+    margin: 0px 30px 6px 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.item3 {
+    position: relative;
+    margin: 0px 30px 6px 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.item4 {
+    position: relative;
+    margin: 0px 30px 6px 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.img {
+    position: relative;
+}
+
+.background {
+    position: relative;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0; 
+    position: absolute;
+    width: 100%;
+}
