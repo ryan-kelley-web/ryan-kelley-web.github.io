@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    background-color: white;
+    padding: 150px;
+    color: indigo;
+    overflow: auto;
+}
+
+#aboutH1 {
+    text-align: left;
+    margin: 0px 0px 75px 600px;
+}
+
+#aboutWhyWD {
+    margin-top: -120px;
+}
+
+body {
+    background-color: white; 
+}
+
+#betterFutures {
+    text-align: center;
+}
+
+#caption {
+    font-size: 10pt;
+    font-family: 'Special Elite', cursive;
+    text-align: left;
+}
+
+.card {
+    border: 2px solid black;
+    height: 700px;
+}
+
+#cela {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.checkboxes {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 25px rgb(161, 19, 161);
+    letter-spacing: 2px;
+}
+
+.col {
+    margin: 50px 120px 30px 0px;
+}
+
+.col-2 {
+    text-align: center;
+}
+
+#companyLogos {
+    margin: 100px;
+}
+
+.contact {
+    background-color: white;
+    color: indigo;
+    margin: 200px 100px 200px 100px
+}
+
+#contactH1 {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+
+.dev {
+    list-style-type: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70pt;
+    margin: 50px 0px 30px -140px;
+    padding: 0;
+    position: relative;
+    text-align: start;
+    line-height: 80%;
+    text-shadow: 0 0 25px rgb(161, 19, 161);
+}
+
+.footer {
+  background-color: indigo;
+  color: white;
+} 
+
+form {
+    text-align: center;
+margin: 50px;
+padding: 50px;
+border: 10px solid rgb(54, 251, 5);
+border-radius: 16%;
+}
+
+#glasses {
+    width: 135%;
+    height: 70%;
+    margin: 0px 0px 0px -150px;
+    border: 10px solid rgb(54, 251, 5);
+    border-radius: 16%;
+}
+
+#hi {
+    text-align: center;
+    margin: 0px 0px 300px 0px
+}
+
+#laFitness {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+#linkedIn {
+    height: 200px;
+    width: 200px;
+}
+
+#lookingAhead { 
+    text-align: center;
+}
+
+#lookingToBeatThese {
+    text-align: center;
+}
+
+.main {
+    background: radial-gradient(rgb(66, 66, 66), rgb(19, 18, 18), black);
+    border: 5px solid black;
+    margin: 0;
+    padding: 80px 0px 35px 0px;
+}
+
+.mainKSAs {
+    color: rgb(54, 251, 5);
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 25px rgb(161, 19, 161);
+}
+
+#mainMantra {
+    color: white; 
+    text-align: center; 
+    font-family: 'Satisfy', cursive;
+    margin: 20px
+    font-size: 22pt;
+}
+
+#mainRK {
+    color: rgb(54, 251, 5);
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 25px 10px 25px 10px;
+    font-size: 70pt;
+    text-shadow: 0 0 25px rgb(161, 19, 161);
+}
+
+.nav-link {
+color: rgb(161, 19, 161);
+font-family: 'Special Elite', cursive;
+font-size: 20pt;
+margin: 100px 0px 235px 0px;
+}
+
+
+.pbw {
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 20pt;
+    line-height: 98%;
+    position: relative;
+}
+
+#pbw {
+    list-style-type: none;
+}
+
+.philo {
+    text-align: left;
+    margin: 100px;
+}
+.projects {
+    color: indigo;
+    border: 10px solid indigo;
+    border-radius: 16%
+   
+}
+
+#projectsH1 {
+    text-align: center;
+    margin: 25px 0px 100px 0px
+}
+
+
+
+/* #proudBG {
+    text-align: center;
+} */
+
+.resume {
+    background-color: white;
+    color: indigo;
+}
+
+#resumeAAG {
+    text-align: center;
+}
+
+#resumeH1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.resumeCols {
+    text-align: center;
+}
+
+.resumeContact {
+    background-color: lightgrey;
+}
+
+#resumeDL {
+    text-align: center;
+}
+
+#rkPic {
+    border: 10px solid indigo;
+    border-radius: 50%;
+    height: 255px;
+    width: 280px;
+    margin-left: 40%;
+    margin-right: 60%;
+    margin-bottom: 15px;
+}
+.row {
+    padding: 30px;
+}
+
+#rtnTop {
+text-align: center;
+    border: 2px solid black;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(54, 251, 5); 
+    color: black;
+    font-size: 14pt;
+}
+
+#sendBtn {
+    background-color: indigo;
+    color: white;
+    font-size: 16pt;
+    padding: 15px;
+}
+
+span {
+    color: white;
+}
+
+
+
+#tfs {
+    height: 200px;
+    width: 200px;
+}
+
+#usg {
+    height: 200px; 
+    width: 200px;
+}
+
+#usNavy {
+    height: 200px;
+    width: 200px
+}

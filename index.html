@@ -2,67 +2,348 @@
 <html lang="en">
 
 <head>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Molle:ital@1&family=Righteous&family=Russo+One&display=swap"
-        rel="stylesheet">
-    <!--fonts-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>RK</title>
+
+    <!--g fonts css-->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <!--rk_folio css-->
+    <link rel="stylesheet" href="./rk_folio.css">
+    <title>Ryan Kelley Portfolio</title>
 </head>
 
 <body>
+    <div class="wrapper">
 
-    <div id="wrapper">
+        <div class="main">
+            <!--begin main-->
 
-        <header>
-            <i>Welcome!</i>
-        </header>
+            <h1 id="mainRK"><span>Ryan</span> Kelley</h1>
 
-        <nav>
-            <div class="flex-container">
-                <div class="item1">About</div>
-                <div class="item2">Resume</div>
-                <div class="item3">Projects</div>
-                <div class="item4">Contact</div>
-            </div>
-        </nav>
-
-        <div class="img-cont"><img src="./portfolioAssets/woodbg.jpg" alt="typical workspace">
-            <div class="img-text">
-                <h1>Ryan Kelley</h1>
+            <div class="checkboxes">
+                <i class="far fa-check-square fa-2x"></i>
                 <i class="far fa-check-square fa-3x"></i>
                 <i class="far fa-check-square fa-4x"></i>
-                <i class="far fa-check-square fa-5x"></i>
+            </div>
 
-                <h2>People Ops Leadership | Project/Business Managment | Web Coding & Development</h2>
-                <h3>Make Better Futures</h3>
+            <div class="mainKSAs">
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li class="pbw"><span>Leadership</span></li>
+                            <li class="pbw"><span>Business</span></li>
+                            <li class="pbw"><span>Web</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <li class="dev">Development</li>
+                    </div>
+                </div>
 
+
+                <h4 id="mainMantra">"Make Better Futures Together"</h4>
+
+                <ul class="nav nav-pills nav-fill">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutH1">&#60About&#62</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resumeH1"> &#60Resume&#62</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projectsH1">&#60Projects&#62</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactH1">&#60Contact&#62</a>
+                    </li>
+                </ul>
             </div>
         </div>
+        <!--end main-->
+        <div class="about">
+            <img src="./portfolioAssets/rkEditedPic.jpg" alt="Hi, I'm Ryan." id="rkPic">
+            <h3 id="hi">Hi, I'm Ryan. Welcome to my site.</h3>
+            <div class="aboutAmDo">
+                <h1 id="aboutH1">About</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./portfolioAssets/glasses.jpg" alt="perception is NOT reality" id="glasses">
+                        <p>(perception != reality)</p>
+                    </div>
+                    <div class="col-8">
+                        <br><br>
+                        <h5>Who I Am</h5>
+                        <br>
+                        <ul>
+                            <li>a career-changing, but still passionate people ops/project manager, now training as
+                                a web developer</li><br>
+                            <!-- <li>an entrepreneurial fanatic</li> -->
+                            <li>a keen absorber of books & podcasts</li><br>
+                            <li>a huge fan of plain coffee, vibrant foods, & lists (Can you tell?)</li><br>
 
+                        </ul>
+                        <br><br>
+                        <h5>What I Do</h5>
+                        <br>
+                        <p>
+                            I love creating better outcomes for people, companies, and my community.
+                            <br><br>
+                            I’ve been
+                            fortunate to do a great deal of that, solving business and socio-cultural problems over
+                            the past 14 years, alongside (mostly) wonderful people in diverse organizational
+                            environments.
+                            <br><br>
+                            Creating better outcomes and solving problems is more important now than ever. I don't wish to change those aspects of my prior working years.
+                            <br>
+                            <br>
+                             But instead of focusing on human solutions, as a professional web developer, my aim will be to help build tools that create better outcomes - and thus "better futures" - on even larger scales by integrating my
+                            beloved coding savvy and relentless, proactive curiosity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--end aboutAmDo-->
+            <div class="aboutWhyWD">
+                <h5>Why Tech/Coding/Web Development?</h5><br>
+                <p>
+                    Over time, as I watched tech solutions grow more sophisticated, achieving efficiencies
+                    previously
+                    unthinkable, it became obvious that becoming the best, most well-rounded super-manager version
+                    of myself would require computer skills on par with those of business leadership.
+                    <br><br>
+                    Likewise, some of my entrepreneurial aspirations seemed futile without the ability to forge my own
+                    tech tools. After exploring career paths in tech, the one I came to admire most (like so many
+                    others) was that of the developer, with one foot in science and the other in art.
+                    <br><br>
+                    So I began learning to code - alone, online at first, then with help - and have been working and
+                    studying diligently since, with no stopping in sight. I have A LOT to learn yet, but from not
+                    owning a computer until I was a 19 year old undergrad, to devouring many self-learning resources (books, online, videos, etc.), to building apps as part of my JavaScript bootcamp curriculum, I also recognize that I've
+                    come a long way
+                    (again, no stopping in sight).
+                    <br><br>
+                    *There are many more reasons I decided to pursue coding. To discuss further, or better yet, to
+                    share how <strong>you</strong> got started, <a href="#contactH1">send me a message.</a>
+                </p><br><br>
+            </div>
+            <!--whyWD-->
+            <div class="aboutLookingAhead">
+                <h5>Looking Ahead</h5>
+                <br>
+                <p>
+                    I'm proud of my professional experience, but, without a doubt, my most outstanding achievements
+                    lie ahead. <em>This makes me extremely excited for the future.</em>
+                    <br><br>
+                    I’m relatively new to Indy and even newer to the tech scene, but what I'd like both to know
+                    is this: <em>I am record motivated and better poised than ever to make even greater, more
+                        meaningful contributions to a culture and legacy I'm proud to help shape, and mission(s)
+                        that leave
+                        me eager for more.</em>
+                </p>
+            </div>
+            <!--end aboutLookingAhead-->
+        </div>
+        <!--end about-->
 
-
-        <div class="background">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure omnis enim pariatur quis ducimus libero
-                quas eum debitis doloribus dolorem.</p>
+        <div class="resume">
+            <h1 id="resumeH1">Resume</h1>
+            <p id="resumeDL">*To view/download my complete resume, simply click<a href="https://docs.google.com/document/d/1cYVvyO0UjyAFFzLNnoGMyJfajJYejTs5uxy30JVyw2M/edit" download>
+                <img src="https://docs.google.com/document/d/1cYVvyO0UjyAFFzLNnoGMyJfajJYejTs5uxy30JVyw2M/edit" alt="" target="_blank";>here.</p></a>
+            <div class="resumeAAG">
+                <!-- <h5 id="proudBG">A Proud Background</h5> -->
+                <!--navbar with employers-->
+                <ul class="nav nav-pills nav-fill" id="companyLogos">
+                    <li class="nav-item">
+                        <img src="./portfolioAssets/laFitnessLogo.png" alt="LA Fitness" id="laFitness">
+                    </li>
+                    <li class="nav-item">
+                        <img src="./portfolioAssets/usnLogo.png" alt="US Navy" id="usNavy">
+                    </li>
+                    <li class="nav-item">
+                        <img src="./portfolioAssets/tfsLogo.png" alt="Thermo Fisher Sci" id="tfs">
+                    </li>
+                    <li class="nav-item">
+                        <img src="./portfolioAssets/celadonLogo.png" alt="Celadon" id="cela">
+                    </li>
+                    <li class="nav-item">
+                        <img src="./portfolioAssets/usgLogo.png" alt="US Federal Govt" id="usg">
+                    </li>
+                </ul>
+                <!--end navbar with employers-->
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="resumeCols">A Few Big Wins</h5>
+                        <br>
+                        <!-- <p id="lookingToBeatThese">(Always looking to beat these)</p><br> -->
+                        <li>Leading a research group to help identify dire training deficiencies and create funner,
+                            more effective, and much needed learning experiences for employees.
+                        </li><br>
+                        <li>
+                            <em>Safely</em> boosting production performances to avert downsizing and earning our
+                            site a strategic industry credential for a renewed competitive edge.
+                        </li><br>
+                        <li>
+                            Overseeing the redesign and implementation of an aviation safety program to reduce
+                            mishaps, keeping innumerable names out of the obituaries.
+                        </li>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="resumeCols">My Simple Philosophy</h5><br>
+                        <p id="betterFutures"><em>--- Better futures do not happen automatically ---</em> </p>
+                        <br>
+                        <!-- <br> -->
+                        <p>"Later" (i.e. tomorrow, next week, month, quarter, year, etc.) does not get better by
+                            default.
+                            Progress alone does that. <br><br> Also, because we
+                            all
+                            share the future, we
+                            really are all 'in it together' when it comes to making the world more of a win-win-win
+                            for
+                            everybody.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
+        <!--end resume-->
 
+        <div class="projects">
+            <h1 id="projectsH1">Projects</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./portfolioAssets/jackSkellingtonCSS.JPG" class="card-img-top" alt="CSS Creature: The Pumpkin King">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>The CSS Creature</strong> <br>
+                 "The Pumpkin King"</h5>
+                          <p class="card-text">This was an exercise in getting familiarized with Cascading Style Sheets enough to create intentional shapes and various visual stimuli. It also demonstrated relational dynamics between HTML and CSS.</p><br><br>
+                          <a href="https://codepen.io/ryan-kelley/pen/yLOOVXZ" class="btn btn-primary" target="_blank">Feel Free to Click Around in There</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./portfolioAssets/huluStaticLayout.JPG" class="card-img-top" alt="Static Layout: Hulu">
+                        <div class="card-body">
+                          <h5 class="card-title" style="text-align: center;"><strong>The Static Layout</strong> <br> "Mock Hulu Homepage"</h5>
+                          <p class="card-text">This was another HTML & CSS-based project in which the landing page for Hulu.com was 'mocked' or recreated as closely as possible. Next to no functionality here. This website's is all show. Try logging in or starting your free trial to be sure.</p> <br><br><br><br><br><br>
+                          <a href="https://ryan-kelley-web.github.io/staticlayout_hulu/" class="btn btn-primary" target="_blank">Feel Free to Click Around in There</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./portfolioAssets/api1Covid.JPG" class="card-img-top" alt="API 1: Covid By the Numbers">
+                        <div class="card-body">
+                          <h5 class="card-title" style="text-align: center;"><strong>API #1</strong> <br>
+                        "Covid-19 USA Numbers"</h5>
+                          <p class="card-text">This Covid-19 Tracker represented two firsts for me: (1) my first solo attempt at an API, and (2) my first JavaScript-based project. Lessons from this exercise filled many pages. Sadly, the figures that are pulled from John Hopkins University are real, though there are some uplifting statistics to be found as well.</p>
+                          <a href="https://ryan-kelley-web.github.io/covid_api/" class="btn btn-primary" target="_blank">Feel Free to Click Around in There</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                          <img src="./portfolioAssets/api2HoosierStateSafari.JPG" class="card-img-top" alt="API #2: Hoosier State Safari">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>API #2</strong> <br>
+                              <br> "Hoosier State Safari"</h5><br>
+                            <p class="card-text">This API required more in-depth JavaScript but was also a pleasant indicator that my reading/understanding of more complex code was coming along. Thankfully, when it came to writing some of the tricker things, good help was able and willing to lend a hand. The API will eventually show a camera. In its lens, the animals we share Indiana with, along with some fun facts about them.</p><br>
+                            <a href="############" class="btn btn-primary" target="_blank">Feel Free to Click Around in There</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                          <img src="..." class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>TBA</strong> <br> </h5> <br>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quae! Corporis hic asperiores aliquam sunt, quod debitis doloremque quae in quasi quidem saepe odio veritatis possimus quam neque eaque rem qui accusantium. Odio consectetur facere distinctio corporis sunt! Fuga odio autem minus dolorem ducimus officiis porro maiores dolorum aliquid rerum.</p> <br><br><br><br>
+                            <a href="#############" class="btn btn-primary" target="_blank">Feel Free to Click Around in There</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                          <img src="..." class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>TBA</strong> <br></h5><br>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut velit blanditiis porro dolorem eum iure fugiat numquam sit eligendi a molestias, veniam molestiae necessitatibus veritatis repellat dignissimos, ex debitis! Soluta ipsa sed repudiandae similique amet. Minima error eius ipsum, officiis fugit nisi praesentium hic, iusto, saepe ex molestias odit temporibus.</p><br><br><br><br>
+                            <a href="#############" class="btn btn-primary" target="_blank">Feel Free to Click Around in There</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+      </div>
+                          
+             
+        </div> <!--end projects-->
 
+        
+        <div class="contact">
+           
+            <form action="https://formspree.io/f/xpzowgqp" method="POST">
+                <h1 id="contactH1">Contact</h1>
+                <br><br><a href="https://www.linkedin.com/in/rdkelley/" target="_blank"><i class="fab fa-linkedin fa-5x" id="linkedIn"></i></a>
+                <a href="https://github.com/ryan-kelley-web" target="_blank"><i class="fab fa-github-square fa-5x"></i></a><br><br><br><br>
+                <label>
+                    With whom do I have the pleasure of corresponding today? <br> <br>
+                    <textarea type="text" name="_replyto" placeholder="Your email address" rows="1"
+                        cols="40"></textarea>
+                </label><br><br><br><br>
+                <label>
+                    And how can we "make better futures together?"
+                    <br>
+                    (Or anything else you wish to ask about or discuss of course.) <br><br>
+                    <textarea name="message" placeholder="Your message" rows="10" cols="80"></textarea>
+                </label> <br><br>
 
-        <footer>
-            <p>RK copyright xyz</p>
-        </footer>
+                <!-- your other form fields go here -->
 
-    </div>
+                <button type="submit" id="sendBtn">Send</button>
+            </form>
+            <a href="#mainRK" id="rtnTop">Return to top of page</a>
+        </div>
+
+<div class="footer">
+    (Ryan Kelley, 2020)
+</div>
+    </div><!-- end wrapper -->
+    <!--bootstrap js, etc.-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/fa689bf47a.js" crossorigin="anonymous"></script>
+
+    <!--formspree-->
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+        window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+        formbutton("create", { action: "https://formspree.io/f/xpzowgqp" })
+    </script>
+    <!--my js-->
+    <script type="text/javascript" src="./rk_folio.js"></script>
 </body>
-<script src="https://kit.fontawesome.com/fa689bf47a.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
 
 </html>
